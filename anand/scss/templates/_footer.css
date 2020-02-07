@@ -1,0 +1,90 @@
+/*---------------------- FOOTER -----------------------*/
+#footer {
+  padding: 80px 0px;
+  position: relative; }
+
+#footer .footer-brand {
+  font-size: 30px; }
+
+#footer .footer-links {
+  padding-left: 0;
+  list-style-type: none; }
+
+#footer {
+  background: url("../images/bg/10.jpg");
+  -webkit-background-size: cover;
+  background-size: cover; }
+
+.footer-overlay {
+  background: #111;
+  opacity: 0.94; }
+
+.footer-widget p {
+  color: #111;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 32px;
+  font-size: 14px; }
+
+.footer-widget h3 {
+  color: #fff;
+  margin-bottom: 30px; }
+
+.footer-links a {
+  color: #fff;
+  line-height: 38px;
+  font-size: 14px;
+  text-transform: capitalize; }
+
+.footer-links i {
+  width: 55px; }
+
+.footer-copy {
+  color: #111;
+  font-size: 16px;
+  position: relative; }
+
+.footer-copy:before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 12px;
+  width: 66%;
+  height: 1px;
+  background: #94959a; }
+
+.current-year {
+  color: #21c87a !important; }
+
+/*----------------------------- SCROLL TO TOP --------------------------------*/
+.scroll-to-top {
+  position: fixed;
+  content: "";
+  right: 30px;
+  bottom: 50px;
+  z-index: 999;
+  background: #21c87a;
+  color: #fff !important;
+  border-radius: 100%;
+  opacity: 0; }
+
+.scroll-to-top i {
+  width: -100px;
+  height: 60px;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 22px;
+  line-height: 60px;
+  display: block;
+  -webkit-box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08); }
+
+.scroll-to-top:hover, .scroll-to-top:focus {
+  text-decoration: none; }
+
+.reveal {
+  transition: all 0.3s;
+  cursor: pointer;
+  opacity: 1; }
+
+/*# sourceMappingURL=_footer.css.map */
