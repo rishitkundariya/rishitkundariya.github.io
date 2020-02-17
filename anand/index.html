@@ -13,10 +13,13 @@
   <title>Anand Motorcycle</title>
 
   <!-- bootstrap.min css -->
-  
+  <link rel="icon" 
+      type="image/png" 
+      href="rk.png" />
   <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
   <!-- Animate Css -->
   <link rel="stylesheet" href="plugins/animate-css/animate.css">
+  <link rel="stylesheet" href="plugins/animate-css/datatable.css">
   <!-- Icon Font css -->
   <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
   <link rel="stylesheet" href="plugins/fonts/Pe-icon-7-stroke.css">
@@ -33,6 +36,34 @@
       .header-white{
         background:#00394d; 
       }
+      .rk:hover{
+        border-top: 1px solid orange;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        margin-left: 5px;
+        margin-right:5px;
+        font-size: 1.1em;
+      }
+      .rkfeature:hover{
+        margin-top: 10px;
+        border-bottom: 1px solid green;
+      }
+      .rkservices:hover{
+        border-radius: 25px;
+        margin-top: 10px;
+      }
+      .rkclient:hover{
+        border-radius: 45px;
+        margin-top: 10px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          border: 1px solid green;
+   		 }
+         .rklink:hover{
+             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin-left: 7px;
+            border-bottom: 1px solid orange;
+
+         }
   </style>
 
 </head>
@@ -65,19 +96,19 @@
                 <div class="navbar-collapse text-center collapse show" id="navigation" style="text-align: right;">
         <ul class="navbar-nav mx-auto " style="margin-top: 20px;" >
            
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown rk">
             
             <a class="nav-link  text-white active text-capitalize" href="index.html"  aria-haspopup="true" aria-expanded="false"><h4 style="color: #e3e6e8;border-bottom:1px solid #e3e6e8;font-size: 1.3em;"><i class="fas fa-home" style="font-size: 1em;"></i></h4></a>
            
           </li>
-          <li class="nav-item">
+          <li class="nav-item rk">
             <a class="nav-link text-white text-capitalize" href="about.html"><h3 style="color: #e3e6e8;font-size: 1.3em;">About</h3></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item rk">
             <a class="nav-link text-white text-capitalize" href="service.html"><h3 style="color: #e3e6e8;font-size: 1.3em;">Product</h3></a>
           </li>
          
-          <li class="nav-item">
+          <li class="nav-item rk">
             <a class="nav-link text-white text-capitalize" href="contact.html"><h3 style="color: #e3e6e8;font-size: 1.3em;">Contact</h3></a>
           </li>
         </ul>
@@ -119,7 +150,7 @@
  <section class="section bg-grey" id="feature">
         <div class="container">
             <div class="row justy-content-center">
-                <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="col-lg-3 col-sm-6 col-md-6 rkfeature">
                     <div class="text-center feature-block">
                         <div class="img-icon-block mb-4" style=" text-align: center;">
                             <i class="ti-thumb-up" style="text-align: center;top: -10px;font-size: 3.5em;right: -20px;"></i>
@@ -129,7 +160,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="col-lg-3 col-sm-6 col-md-6 rkfeature">
                     <div class="text-center feature-block">
                         <div class="img-icon-block mb-4">
                             <i class="ti-cup" style="text-align: center;top: -10px;font-size: 3em;right: -20px;"></i>
@@ -139,7 +170,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="col-lg-3 col-sm-6 col-md-6 rkfeature">
                     <div class="text-center feature-block">
                         <div class="img-icon-block mb-4">
                             <i class="ti-wallet" style="text-align: center;top: -10px;font-size: 3em;right: -20px;"></i>
@@ -149,7 +180,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="col-lg-3 col-sm-6 col-md-6 rkfeature">
                     <div class="text-center feature-block">
                         <div class="img-icon-block mb-4">
                             <i class="ti-dashboard" style="text-align: center;top: -10px;font-size: 3.5em;right: -20px;"></i>
@@ -185,7 +216,7 @@
     <section class="pt-5 service-wrap">
         <div class="container">
             <div class="row ">
-                <div class="col-lg-8 offset-lg-4">
+                <div class="col-lg-8 offset-lg-4 ">
                     <div class="carousel slide " id="service-carousel" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -274,21 +305,21 @@
             </div> <!-- / .row -->
 
             <div class="row">
-                <div class="col-lg-4 col-sm-6 col-md-6 mb-30 fadeInLeft wow" data-wow-duration="2s">
+                <div class="col-lg-4 col-sm-6 col-md-6 mb-30 rkservices">
                     <div class="web-service-block">
                         <i class="ti-settings"></i>
                         <h3>Best Service</h3>
                         <p>Happy customers are your biggest advocates and can become your most successful sales team.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 col-md-6 mb-30 fadeInLeft wow" data-wow-duration="2s">
+                <div class="col-lg-4 col-sm-6 col-md-6 mb-30 rkservices">
                     <div class="web-service-block">
                         <i class="ti-user"></i>
-                        <h3>50+ Delears</h3>
-                        <p>50+ Delears connected with us among all over saurastra and kutch.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</br></br></p>
+                        <h3>400+ Delears</h3>
+                        <p>400+ Delears connected with us among all over saurastra and kutch.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</br></br></p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 col-md-6 mb-30 fadeInLeft wow" data-wow-duration="2s">
+                <div class="col-lg-4 col-sm-6 col-md-6 mb-30 rkservices">
                     <div class="web-service-block">
                         <i class="ti-shopping-cart-full"></i>
                         <h3>Free Shipping*</h3>
@@ -331,9 +362,9 @@
                 </div>
                 <div class="col-lg-8 col-sm-12 col-md-12">
                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                               <div class="test-author-thumb d-flex">
+                        <div class="col-lg-6 ">
+                            <div class="test-inner rkclient">
+                               <div class="test-author-thumb d-flex ">
                                    <img src="images/client/img-1.jpg" alt="Testimonial author" class="img-fluid">
                                    <div class="test-author-info">
                                        <h4>Amubhai </h4>
@@ -345,8 +376,8 @@
                                 <i class="fa fa-quote-right"></i>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
+                        <div class="col-lg-6 ">
+                            <div class="test-inner rkclient">
                                <div class="test-author-thumb d-flex">
                                    <img src="images/client/img-2.jpg" alt="Testimonial author" class="img-fluid">
                                    <div class="test-author-info">
@@ -362,8 +393,8 @@
                     </div>
                     
                      <div class="row">
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
+                        <div class="col-lg-6 ">
+                            <div class="test-inner rkclient ">
                                <div class="test-author-thumb d-flex">
                                    <img src="images/client/img-3.jpg" alt="Testimonial author" class="img-fluid">
                                    <div class="test-author-info">
@@ -371,12 +402,12 @@
                                        <h6>Vachhami auto, Talala</h6>
                                    </div>
                                </div>
-                                    Hello, I am Manibhai .I have just join with Anand Motorcycle.It gives part at the lowest price in  market.
+                                    Hello, I am Manibhai. I have just join with Anand Motorcycle.It gives part at the lowest price in  market.<br><br>
                                 <i class="fa fa-quote-right"></i>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
+                        <div class="col-lg-6 ">
+                            <div class="test-inner rkclient">
                                <div class="test-author-thumb d-flex">
                                    <img src="images/client/img-4.jpg" alt="Testimonial author" class="img-fluid">
                                    <div class="test-author-info">
@@ -483,11 +514,11 @@
                         Call us. We will help you </br>(Monday - Saturday  9:30 am to 6:00 pm)</br></div>
                         <div style="color: white;opacity: 0.8;margin-top: : 20px;">
                         <i class="ti-mobile" style="color: orange;font-size: 1.4em;"></i>
-                       <a href="tel:+919825323323" style="color: white;">+91 98253 23323</a></div> 
+                       <a href="tel:+919825323323" style="color: white;" class="rklink">+91 98253 23323</a></div> 
                    </br>
                         <div style="color: white;opacity: 0.8;margin-bottom: 20px;">
                        <i class="ti-mobile" style="color: orange;font-size: 1.4em;"></i>
-                        <a href="tel:+919825321121" style="color: white;">+91 98253 21121</a></div>
+                        <a href="tel:+919825321121" style="color: white;" class="rklink">+91 98253 21121</a></div>
 
 
                     </div>
@@ -501,24 +532,24 @@
                         <ul class="footer-links " style="color:#c9cdcf; ">
                             
                             <li >>&nbsp;&nbsp;&nbsp;
-                                <a href="about.html" style="border-bottom:0.5px solid #c9cdcf;" >
+                                <a href="about.html"  class="rklink">
                                     About Us
                                 </a>
                             </li>
                            
-                            <li>>&nbsp;&nbsp;&nbsp;
-                                <a href="service.html" style="border-bottom:0.5px solid white;">
+                            <li >>&nbsp;&nbsp;&nbsp;
+                                <a href="service.html"  class="rklink">
                                     Products 
                                 </a>
                             </li>
-                            <li>>&nbsp;&nbsp;&nbsp;
-                                <a href="contact.html" style="border-bottom:0.5px solid white;">
+                            <li >>&nbsp;&nbsp;&nbsp;
+                                <a href="contact.html"  class="rklink">
                                    Partener with us
                                 </a>
                             </li>
 
-                            <li>>&nbsp;&nbsp;&nbsp;
-                                <a href="contact.html" style="border-bottom:0.5px solid white;">
+                            <li >>&nbsp;&nbsp;&nbsp;
+                                <a href="contact.html"  class="rklink">
                                     Contact
                                 </a>
                             </li>
@@ -582,7 +613,7 @@
     <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
     <!-- Slick Slider -->
     <script src="plugins/slick-carousel/slick/slick.min.js"></script>
-    
+    <script src="plugins/animate-css/datatablejs.js"></script>
 
     <!-- Map Js -->
     <script src="plugins/google-map/gmap3.min.js"></script>
