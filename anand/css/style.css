@@ -1971,5 +1971,95 @@ CONTACT PAGE
     outline: none;
   }
 }
+.water-wave {
+  position: relative;
+ 
+  -webkit-animation-name: water-wave;
+          animation-name: water-wave;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.water-wave::before {
+  border: 3px solid blue;
+  -webkit-animation-name: water-wave;
+          animation-name: water-wave;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes water-wave {
+  0% {
+    border-radius: 120px 135px 110px 90px;
+    ::before {
+      border-radius: 130px 120px 160px 130px;
+    }
+  }
+  25% {
+    border-radius: 130px 140px 100px 110px;
+    ::before {
+      border-radius: 100px 147px 140px 120px;
+    }
+  }
+  50% {
+    border-radius: 110px 97px 150px 100px;
+    ::before {
+      border-radius: 102px 147px 140px 120px;
+    }
+  }
+  75% {
+    border-radius: 80px 107px 120px 90px;
+    ::before {
+      border-radius: 102px 147px 140px 120px;
+    }
+  }
+  100% {
+    border-radius: 120px 135px 110px 90px;
+    ::before {
+      border-radius: 130px 120px 160px 130px;
+    }
+  }
+}
+
+@keyframes water-wave {
+  0% {
+    border-radius: 120px 135px 110px 90px;
+    ::before {
+      border-radius: 130px 120px 160px 130px;
+    }
+  }
+  25% {
+    border-radius: 130px 140px 100px 110px;
+    ::before {
+      border-radius: 100px 147px 140px 120px;
+    }
+  }
+  50% {
+    border-radius: 110px 97px 150px 100px;
+    ::before {
+      border-radius: 102px 147px 140px 120px;
+    }
+  }
+  75% {
+    border-radius: 80px 107px 120px 90px;
+    ::before {
+      border-radius: 102px 147px 140px 120px;
+    }
+  }
+  100% {
+    border-radius: 120px 135px 110px 90px;
+    ::before {
+      border-radius: 130px 120px 160px 130px;
+    }
+  }
+}
 
 /*# sourceMappingURL=maps/style.css.map */
