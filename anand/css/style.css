@@ -1665,8 +1665,7 @@ CONTACT PAGE
     margin-bottom: 40px;
   }
   .navbar-collapse.collapse.show {
-    padding-bottom: 30px;
-    background: #21c87a;
+    background: #000000;
   }
   #map {
     margin-top: 40px;
@@ -1697,8 +1696,7 @@ CONTACT PAGE
     font-size: 2.5rem;
   }
   .navbar-collapse.collapse.show {
-    padding-bottom: 30px;
-    background: #21c87a;
+    background: #000;
   }
   .top-info-block {
     text-align: center;
@@ -1920,8 +1918,7 @@ CONTACT PAGE
     width: 100%;
   }
   .navbar-collapse.collapse.show {
-    padding-bottom: 30px;
-    background: #21c87a;
+    background: #00394d;
   }
   .web-service-block {
     margin-bottom: 30px;
@@ -1985,7 +1982,7 @@ CONTACT PAGE
 }
 
 .water-wave::before {
-  border: 3px solid blue;
+  border: 3px solid  #00394d;
   -webkit-animation-name: water-wave;
           animation-name: water-wave;
   -webkit-animation-duration: 3s;
