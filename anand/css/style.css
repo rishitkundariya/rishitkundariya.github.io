@@ -2059,4 +2059,66 @@ CONTACT PAGE
   }
 }
 
-/*# sourceMappingURL=maps/style.css.map */
+.header-white{
+        background:#00394d; 
+      }
+        
+        
+        .rk{
+-webkit-box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
+box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
+-webkit-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
+
+.rk:hover {
+-webkit-box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.15);
+box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.15);
+-webkit-transform: translateY(-5px);
+-ms-transform: translateY(-5px);
+transform: translateY(-5px);
+}
+   .rkclient:hover {
+-webkit-box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.15);
+box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.15);
+-webkit-transform: translateY(-5px);
+-ms-transform: translateY(-5px);
+transform: translateY(-5px);
+border: 1px solid lightgreen;
+border-radius: 50px;
+}
+
+.rkmenu:hover {
+-webkit-box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.15);
+box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.15);
+-webkit-transform: translateY(-5px);
+-ms-transform: translateY(-5px);
+transform: translateY(-5px);
+border-top: 2px solid white; 
+}   
+      .rkfeature{
+-webkit-box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
+box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
+-webkit-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
+
+.rkfeature:hover {
+-webkit-box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.15);
+box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.15);
+-webkit-transform: translateY(-5px);
+-ms-transform: translateY(-5px);
+transform: translateY(-5px);
+}
+      .rkservices:hover{
+        border-radius: 25px;
+        margin-top: 10px;
+      }
+    
+         .rklink:hover{
+             color: lightgreen;
+            border-bottom: 1px solid orange;
+
+         }
