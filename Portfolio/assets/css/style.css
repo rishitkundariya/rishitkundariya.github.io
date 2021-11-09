@@ -371,9 +371,12 @@ section {
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
-.facts .count-box a:hover {
-  color: #1f5297;
+.count-box:hover {
+  background-color: #173b6c;
+ color: #149ddd !important;
+  box-shadow: 5px 10px #888888;
 }
+
 
 /*--------------------------------------------------------------
 # Akills
@@ -404,7 +407,7 @@ section {
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: 0.9s;
+  transition: 2.9s;
   background-color: #149ddd;
 }
 
