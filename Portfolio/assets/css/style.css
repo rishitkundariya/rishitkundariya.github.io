@@ -372,9 +372,12 @@ section {
   transition: ease-in-out 0.3s;
 }
 .count-box:hover {
-  background-color: #173b6c;
- color: #149ddd !important;
-  box-shadow: 5px 10px #888888;
+  background-color: #f0f0f5;
+  color: #149ddd !important;
+  box-shadow: 5px 10px #e6eeff;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 
@@ -610,9 +613,39 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+
+.services .icon-box {
+  padding: 20px 15px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  text-align: center;
+  z-index: 1;
+}
+.services .icon-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  transition: ease-in-out 0.3s;
+  z-index: -1;
+}
+.services .icon-box:hover::before {
+  background: #149ddd;
+  height: 100%;
+  border-radius: 0px;
+}
+
+----
 .services .icon-box {
   margin-bottom: 20px;
 }
+
 .services .icon {
   float: left;
   display: flex;
@@ -634,7 +667,7 @@ section {
   background: #fff;
 }
 .services .icon-box:hover .icon i {
-  color: #149ddd;
+  color: #6a7276;
 }
 .services .title {
   margin-left: 80px;
@@ -652,6 +685,9 @@ section {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+}
+.services .icon-box:hover .title a, .services .icon-box:hover .description {
+  color: rgb(0, 0, 0);
 }
 
 /*--------------------------------------------------------------
