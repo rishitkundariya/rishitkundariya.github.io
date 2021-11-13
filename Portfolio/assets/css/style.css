@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero.jpeg") top center;
   background-size: cover;
 }
 #hero:before {
@@ -372,13 +372,16 @@ section {
   transition: ease-in-out 0.3s;
 }
 .count-box:hover {
-  background-color: #f0f0f5;
-  color: #149ddd !important;
-  box-shadow: 5px 10px #e6eeff;
-  -webkit-transition: all 0.3s ease-out;
+  border-radius: 2%;
+  background-color: #9db4d6;
+  box-shadow: 5px 10px #030414;
+  -webkit-transition: all 0.5s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+  
+ 
 }
+
 
 
 /*--------------------------------------------------------------
